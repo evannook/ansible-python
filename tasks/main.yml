@@ -1,0 +1,8 @@
+---
+- name: install python components
+  apt: "pkg={{ item }} state=latest update_cache=yes"
+  with_items:
+    - python-virtualenv
+    - python3
+    - python3-dev
+    - build-essential

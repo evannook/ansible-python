@@ -3,6 +3,11 @@ python
 
 Install python packages
 
+Dependencies
+------------
+
+- evannook.sysbase
+
 Example Playbook
 ----------------
 

@@ -12,4 +12,5 @@ galaxy_info:
     - python
     - debian
     - web
-dependencies: []
+dependencies:
+  - evannook.sysbase

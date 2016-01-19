@@ -1,6 +1,6 @@
 ---
 - name: install python components
-  apt: "pkg={{ item }} state=latest update_cache=yes"
+  apt: "pkg={{ item }} state=latest"
   with_items:
     - python-virtualenv
     - python3

@@ -1,12 +1,12 @@
 python
 ======
 
-Install python packages
+Install python3 packages
 
 Dependencies
 ------------
 
-- evannook.sysbase
+- pylabs.sysbase
 
 Example Playbook
 ----------------
@@ -14,7 +14,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-     - role: evannook.python
+     - role: pylabs.python3
 ```
 
 License
@@ -25,4 +25,4 @@ MIT
 Author Information
 ------------------
 
-Evan Nook
+William Wu

@@ -1,5 +1,5 @@
-python
-======
+python3
+=======
 
 Install python3 packages
 

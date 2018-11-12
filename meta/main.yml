@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: python3
   author: William Wu
   description: Install python3 packages
   company: PyLabs

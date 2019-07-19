@@ -1,7 +1,7 @@
 python3
 =======
 
-Install python3 packages
+Install Python 3 packages
 
 Dependencies
 ------------

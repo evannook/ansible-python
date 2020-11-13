@@ -1,12 +1,13 @@
 ---
 - block:
   - name: install python3 packages
-    apt: "pkg={{ packages }} state=latest"
+    apt:
       pkg:
-      - python3
-      - python3-venv
-      - python3-pip
-      - python3-dev
-      - build-essential
+        - python3
+        - python3-venv
+        - python3-pip
+        - python3-dev
+        - build-essential
+      state: latest
   tags:
     - python3
